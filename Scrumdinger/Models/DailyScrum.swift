@@ -1,3 +1,6 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
 import SwiftUI
 
 struct DailyScrum: Identifiable {
@@ -6,13 +9,15 @@ struct DailyScrum: Identifiable {
     var attendees: [String]
     var lengthInMinutes: Int
     var color: Color
-    
-    init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, color: Color) {
+    var history: [History]
+
+    init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, color: Color, history: [History] = []) {
         self.id = id
         self.title = title
         self.attendees = attendees
         self.lengthInMinutes = lengthInMinutes
         self.color = color
+        self.history = history
     }
 }
 
@@ -37,7 +42,7 @@ extension DailyScrum {
     var data: Data {
         return Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), color: color)
     }
-    
+
     mutating func update(from data: Data) {
         title = data.title
         attendees = data.attendees
