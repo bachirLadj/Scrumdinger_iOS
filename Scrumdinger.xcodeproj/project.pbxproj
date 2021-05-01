@@ -24,6 +24,7 @@
 		FB38485A263AED15002F95DA /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB384859263AED15002F95DA /* AVPlayer+Ding.swift */; };
 		FB38485E263AEEB4002F95DA /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB38485D263AEEB4002F95DA /* ding.wav */; };
 		FB384866263B8F3D002F95DA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB384865263B8F3D002F95DA /* History.swift */; };
+		FB384869263DA665002F95DA /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB384868263DA665002F95DA /* ScrumData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		FB384859263AED15002F95DA /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		FB38485D263AEEB4002F95DA /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		FB384865263B8F3D002F95DA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		FB384868263DA665002F95DA /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				FB38483726385423002F95DA /* DailyScrum.swift */,
+				FB384868263DA665002F95DA /* ScrumData.swift */,
 				FB384850263AE482002F95DA /* ScrumTimer.swift */,
 				FB384865263B8F3D002F95DA /* History.swift */,
 				FB384859263AED15002F95DA /* AVPlayer+Ding.swift */,
@@ -199,6 +202,7 @@
 				FB384866263B8F3D002F95DA /* History.swift in Sources */,
 				FB38484B263993A3002F95DA /* EditView.swift in Sources */,
 				FB38485A263AED15002F95DA /* AVPlayer+Ding.swift in Sources */,
+				FB384869263DA665002F95DA /* ScrumData.swift in Sources */,
 				FB38484E263ADF95002F95DA /* MeetingHeaderView.swift in Sources */,
 				FB384851263AE482002F95DA /* ScrumTimer.swift in Sources */,
 				FB384857263AE809002F95DA /* MeetingFooterView.swift in Sources */,
